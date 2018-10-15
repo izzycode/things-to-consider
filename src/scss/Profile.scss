@@ -1,0 +1,22 @@
+.profile__list {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 1rem auto;
+  min-height: 200px;
+  padding: 30px;
+  text-align: center;
+  width: 530px;
+}
+
+dt, dd {
+  display: inline-block;
+}
+
+dt {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+dt::after {
+  content: ":";
+}
